@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 77;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,7 +35,7 @@
 		0426D69127974C37004AE951 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		0426D69327981A21004AE951 /* APIDetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIDetailResponse.swift; sourceTree = "<group>"; };
 		9A829F01277D7CF7002C03F2 /* APIListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIListResponse.swift; sourceTree = "<group>"; };
-		FF9415B125EECD340029E28F /* Dispo Take Home.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dispo Take Home.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF9415B125EECD340029E28F /* innerCircleTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = innerCircleTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9415B425EECD340029E28F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9415B625EECD340029E28F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FF9415BA25EECD350029E28F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		FF9415A825EECD340029E28F = {
 			isa = PBXGroup;
 			children = (
-				FF9415B325EECD340029E28F /* Dispo Take Home */,
+				FF9415B325EECD340029E28F /* innerCircleTakeHome */,
 				FF9415B225EECD340029E28F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,12 +82,12 @@
 		FF9415B225EECD340029E28F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FF9415B125EECD340029E28F /* Dispo Take Home.app */,
+				FF9415B125EECD340029E28F /* innerCircleTakeHome.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FF9415B325EECD340029E28F /* Dispo Take Home */ = {
+		FF9415B325EECD340029E28F /* innerCircleTakeHome */ = {
 			isa = PBXGroup;
 			children = (
 				FF9415B425EECD340029E28F /* AppDelegate.swift */,
@@ -101,7 +101,7 @@
 				FF9415C225EECD350029E28F /* Info.plist */,
 				FF9415BC25EECD350029E28F /* Preview Content */,
 			);
-			path = "Dispo Take Home";
+			path = innerCircleTakeHome;
 			sourceTree = "<group>";
 		};
 		FF9415BC25EECD350029E28F /* Preview Content */ = {
@@ -147,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FF9415B025EECD340029E28F /* Dispo Take Home */ = {
+		FF9415B025EECD340029E28F /* innerCircleTakeHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FF9415C525EECD350029E28F /* Build configuration list for PBXNativeTarget "Dispo Take Home" */;
+			buildConfigurationList = FF9415C525EECD350029E28F /* Build configuration list for PBXNativeTarget "innerCircleTakeHome" */;
 			buildPhases = (
 				FF9415AD25EECD340029E28F /* Sources */,
 				FF9415AE25EECD340029E28F /* Frameworks */,
@@ -159,13 +159,13 @@
 			);
 			dependencies = (
 			);
-			name = "Dispo Take Home";
+			name = innerCircleTakeHome;
 			packageProductDependencies = (
 				FF9415CE25EED15B0029E28F /* SnapKit */,
 				FF9415DE25EEDC000029E28F /* KingfisherSwiftUI */,
 			);
 			productName = "Dispo Take Home";
-			productReference = FF9415B125EECD340029E28F /* Dispo Take Home.app */;
+			productReference = FF9415B125EECD340029E28F /* innerCircleTakeHome.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -182,8 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FF9415AC25EECD340029E28F /* Build configuration list for PBXProject "Dispo Take Home" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = FF9415AC25EECD340029E28F /* Build configuration list for PBXProject "innerCircleTakeHome" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,11 +194,12 @@
 				FF9415CD25EED15B0029E28F /* XCRemoteSwiftPackageReference "snapkit" */,
 				FF9415DD25EEDC000029E28F /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
+			preferredProjectObjectVersion = 77;
 			productRefGroup = FF9415B225EECD340029E28F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FF9415B025EECD340029E28F /* Dispo Take Home */,
+				FF9415B025EECD340029E28F /* innerCircleTakeHome */,
 			);
 		};
 /* End PBXProject section */
@@ -375,15 +375,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Dispo Take Home/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"innerCircleTakeHome/Preview Content\"";
 				DEVELOPMENT_TEAM = DP3UYST7S9;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Dispo Take Home/Info.plist";
+				INFOPLIST_FILE = innerCircleTakeHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Lenever.takehome.dispo.Dispo-Take-Home-Ikechukwu";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lenever.innerCircleTakeHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,15 +397,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Dispo Take Home/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"innerCircleTakeHome/Preview Content\"";
 				DEVELOPMENT_TEAM = DP3UYST7S9;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Dispo Take Home/Info.plist";
+				INFOPLIST_FILE = innerCircleTakeHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Lenever.takehome.dispo.Dispo-Take-Home-Ikechukwu";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lenever.innerCircleTakeHome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -414,7 +416,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FF9415AC25EECD340029E28F /* Build configuration list for PBXProject "Dispo Take Home" */ = {
+		FF9415AC25EECD340029E28F /* Build configuration list for PBXProject "innerCircleTakeHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF9415C325EECD350029E28F /* Debug */,
@@ -423,7 +425,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FF9415C525EECD350029E28F /* Build configuration list for PBXNativeTarget "Dispo Take Home" */ = {
+		FF9415C525EECD350029E28F /* Build configuration list for PBXNativeTarget "innerCircleTakeHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FF9415C625EECD350029E28F /* Debug */,

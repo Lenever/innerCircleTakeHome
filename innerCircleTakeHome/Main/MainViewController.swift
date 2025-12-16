@@ -71,13 +71,11 @@ class MainViewController: UIViewController {
         activityIndicator.startAnimating()
         viewModel.fetchTrendingGifs(
             success: { trendingGifs in
-                DispatchQueue.main.async {
-                    self.gifs = trendingGifs
-                    DispatchQueue.main.async {
-                        self.activityIndicator.stopAnimating()
-                        self.collectionView.reloadData()
-                    }
-                }
+              self.gifs = trendingGifs
+              DispatchQueue.main.async {
+                self.activityIndicator.stopAnimating()
+                self.collectionView.reloadData()
+              }
                 print(trendingGifs)
             },
             failure: { error in

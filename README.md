@@ -1,49 +1,18 @@
-# iOS Take Home
+# TakeHomeApp
+A simple app showcasing a mixture of UIKit and SwiftUI components
+A demo for the take homee app can be found [here](https://drive.google.com/file/d/11PuHedt4NFthYPdnDUUPu9iHhqwqEGtn/view?usp=sharing)
 
-Create an iOS app with two views, `MainViewController` and `DetailViewController`. The `MainViewController` contains a list of GIFs from the [Giphy API](https://developers.giphy.com/). Please do not use SwiftUI or Storyboard.
+## What is the Take Home app about?
+This is a mobile application where you can see a demonstration of a project's ability to integrate UIKit and SwiftUI, manage navigation, and structure a clean, scalable iOS project..
 
-When there is no query, the view should display the featured (trending) gifs. When there is a query, it should display the search results from the API.
-
-Tapping on a cell should push the `DetailViewController`. When the `DetailViewController` loads, it should request information from the API like title, source tld, and rating, and display it. This data must be requested from `DetailViewController`, not passed from the previous view controller (only pass the gif ID, then request data from the API again).
-
-In summary, you will need to use three endpoints from the Giphy API: 1) trending, 2) search, and 3) get GIF by ID. (More info: https://developers.giphy.com/docs/api/endpoint) Also, when fetching trending gifs, please make sure to use the 'pg' rating as a request parameter.
-
-You shouldn't need to use any additional dependencies.
-
-And while not required, feel free to use your preferred architectural/design patterns or libraries/frameworks, and add additional flourishes or features! (e.g., using modern UIKit APIs, anything you'd like to improve)
-
-## Setup
-
-Get an API key [here](https://developers.giphy.com/dashboard/) and put it into `Constants.swift`
-
-## Evaluation
-
-### What you will be evaluated on
-
-- Functionality (whether the app works as expected)
-- Following modern best practices
-- Use of architectural/design patterns
-- Use of SnapKit for laying out views
-
-### Bonus points
-
-- Testability of code
-- Appropirate access controls
-
-### What you will not be evaluated on
-
-- Testing (e.g., unit tests)
-- Error handling
-- Aesthetics
-
-## Submission Instructions
-
-Create a public GitHub repository. Share this GitHub URL with your point of contact.
+## How does the iphonephotographylessons app work?
+- User can view a list of Star Wars films
+- User can select a movie on the list to see more details about it
+- User can search for particular moveies on the app
+- User can use tha app offline to access previously stored information about the blockbuster movies
 
 ## Screenshots
-
-![Main View](assets/main-view.png)
-
-![Detail View](assets/detail-view.png)
-
-Note: The data displayed here is for demonstration purposes. You should display any data possible from the Giphy API that you can on the detail view.
+<p float = "left">
+<img src="https://drive.google.com/uc?export=view&id=1rTUSIxHg7FLctpI4X1eRkIDIv2ZRBRE4" width = "300" >
+<img src="https://drive.google.com/uc?export=view&id=19jdj7MXajzuGT6V2ccJEbNo_nxg-CkGp" width = "300" >
+</p>
