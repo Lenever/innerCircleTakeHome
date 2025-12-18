@@ -21,6 +21,7 @@
 		239413FF2EF45B370009DBEC /* AppRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239413FE2EF45B230009DBEC /* AppRow.swift */; };
 		239414012EF4706A0009DBEC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239414002EF470650009DBEC /* HomeViewModel.swift */; };
 		239414032EF4750D0009DBEC /* MockAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239414022EF475030009DBEC /* MockAuth.swift */; };
+		239414052EF48F2A0009DBEC /* ToggleComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239414042EF48F170009DBEC /* ToggleComponent.swift */; };
 		FF9415B525EECD340029E28F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415B425EECD340029E28F /* AppDelegate.swift */; };
 		FF9415B725EECD340029E28F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415B625EECD340029E28F /* SceneDelegate.swift */; };
 		FF9415BB25EECD350029E28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9415BA25EECD350029E28F /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		239413FE2EF45B230009DBEC /* AppRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRow.swift; sourceTree = "<group>"; };
 		239414002EF470650009DBEC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		239414022EF475030009DBEC /* MockAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuth.swift; sourceTree = "<group>"; };
+		239414042EF48F170009DBEC /* ToggleComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleComponent.swift; sourceTree = "<group>"; };
 		FF9415B125EECD340029E28F /* innerCircleTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = innerCircleTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9415B425EECD340029E28F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9415B625EECD340029E28F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 		2372C30A2EF2F0FE0007AFB4 /* ReusableComponents */ = {
 			isa = PBXGroup;
 			children = (
+				239414042EF48F170009DBEC /* ToggleComponent.swift */,
 				239413FE2EF45B230009DBEC /* AppRow.swift */,
 				239413FB2EF42F420009DBEC /* ImagePicker.swift */,
 				239413F92EF42BAD0009DBEC /* AppButtonRepresentable.swift */,
@@ -275,6 +278,7 @@
 				2372C3082EF2025E0007AFB4 /* User.swift in Sources */,
 				FF9415B525EECD340029E28F /* AppDelegate.swift in Sources */,
 				FF9415B725EECD340029E28F /* SceneDelegate.swift in Sources */,
+				239414052EF48F2A0009DBEC /* ToggleComponent.swift in Sources */,
 				239413FA2EF42BB90009DBEC /* AppButtonRepresentable.swift in Sources */,
 				2372C3182EF311AA0007AFB4 /* OnboardingViewModel.swift in Sources */,
 				2372C3052EF1D9CF0007AFB4 /* NavigatorRouter.swift in Sources */,

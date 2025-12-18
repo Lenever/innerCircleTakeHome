@@ -76,7 +76,21 @@ struct OnboardingView: View {
     
     @ViewBuilder
     var lifestyle: some View {
-        Text(Constants.lifestyleTitle)
+        VStack {
+            ForEach(Lifestyle.allCases) { lifestyle in
+                ToggleComponentRepresentative(
+                    title: lifestyle.rawValue,
+                    isOn: Binding<Bool>(
+                        get: { viewModel.user.lifestyle[lifestyle] ?? false },
+                        set: {
+                            viewModel.user.lifestyle[lifestyle] = $0
+                            viewModel.user.lifestyle = viewModel.user.lifestyle
+                        }
+                    )
+                )
+                .frame(height: 50)
+            }
+        }
     }
     
     @ViewBuilder
@@ -96,3 +110,4 @@ struct OnboardingView: View {
         .frame(height: 50)
     }
 }
+

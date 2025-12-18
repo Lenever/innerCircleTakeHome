@@ -18,11 +18,18 @@ class User {
     @Published var birthday: Date = .now
     @Published var isLoggedIn: Bool = false
     @Published var photo: UIImage?
+    @Published var lifestyle: [Lifestyle: Bool] = {
+        var dict = [Lifestyle: Bool]()
+        Lifestyle.allCases.forEach { dict[$0] = false }
+        return dict
+    }()
+    
     var confirmationDetails:[(String, String)] {
         [(Constants.nameTitle, name ?? ""),
          (Constants.emailTitle, email ?? ""),
          (Constants.socialsTitle, social ?? ""),
          (Constants.jobTitle, job ?? ""),
+         (Constants.lifestyleTitle, lifestyle.filter{$0.value == true}.map(\.key.rawValue).joined(separator: ", ")),
          (Constants.birthdayTitle, birthday.description)
         ]
     }
@@ -30,4 +37,17 @@ class User {
     private init() {
         
     }
+}
+
+enum Lifestyle: String, CaseIterable, Identifiable {
+    
+    var id: Self { self }
+    
+    case spiritual = "Spiritual"
+    case practical = "Practical"
+    case sporty = "Sporty"
+    case creative = "Creative"
+    case alternate = "Alternate"
+    case avantGarde = "Avant Garde"
+    
 }
