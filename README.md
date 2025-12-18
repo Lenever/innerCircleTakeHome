@@ -1,6 +1,6 @@
 # TakeHomeApp
 A simple app showcasing a mixture of UIKit and SwiftUI components
-A demo for the take home app can be found [here](https://drive.google.com/file/d/1upaSm-osTTW73RIpX-03qUq22AmchCsk/view?usp=sharing)
+A demo for the take home app can be found [here](https://drive.google.com/file/d/1VLp1jtWOl_6Ef-xhZfy_k1PGqDO8yTUS/view?usp=sharing)
 
 ## What is the Take Home app about?
 This is a mobile application where you can see a demonstration of a project's ability to integrate UIKit and SwiftUI, manage navigation, and structure a clean, scalable iOS project..
@@ -15,5 +15,6 @@ This is a mobile application where you can see a demonstration of a project's ab
 ## Screenshots
 <p float = "left">
 <img src="https://drive.google.com/uc?export=view&id=1V_cdRVO9g3ptxlri8swskA0jDJqHOpvY" width = "300" >
+<img src="https://drive.google.com/uc?export=view&id=1ACxW1kyClpkvo2VAGS8Q_TosUSz4ZvFU" width = "300" >
 <img src="https://drive.google.com/uc?export=view&id=1mL4GSaYc8aj2wykrp1k8ZaMCcBTp9N6v" width = "300" >
 </p>

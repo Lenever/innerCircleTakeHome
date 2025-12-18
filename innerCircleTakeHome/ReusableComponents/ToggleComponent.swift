@@ -28,10 +28,10 @@ class ToggleComponent: UIView {
     required init?(coder: NSCoder) { fatalError("init(coder:) has not been implemented") }
     
     private func setupUI() {
-        layer.cornerRadius = 12
+        layer.cornerRadius = Constants.cornerRadius
         
         stackView.axis = .horizontal
-        stackView.spacing = 10
+        stackView.spacing = Constants.stackViewSpacing
         stackView.alignment = .center
         stackView.isUserInteractionEnabled = false
         
