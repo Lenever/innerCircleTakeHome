@@ -10,14 +10,17 @@
 		2372C3032EF1D99B0007AFB4 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C3022EF1D9960007AFB4 /* Coordinator.swift */; };
 		2372C3052EF1D9CF0007AFB4 /* NavigatorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C3042EF1D9C90007AFB4 /* NavigatorRouter.swift */; };
 		2372C3082EF2025E0007AFB4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C3072EF202590007AFB4 /* User.swift */; };
-		2372C30C2EF2F2AD0007AFB4 /* AppTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C30B2EF2F2A10007AFB4 /* AppTextField.swift */; };
 		2372C30F2EF2F3140007AFB4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C30E2EF2F30B0007AFB4 /* LoginViewController.swift */; };
 		2372C3112EF2F34E0007AFB4 /* AppTextFieldRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C3102EF2F3480007AFB4 /* AppTextFieldRepresentable.swift */; };
 		2372C3142EF2FB190007AFB4 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C3132EF2FB110007AFB4 /* OnboardingView.swift */; };
 		2372C3162EF303E10007AFB4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C3152EF303D90007AFB4 /* HomeViewController.swift */; };
 		2372C3182EF311AA0007AFB4 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C3172EF311A30007AFB4 /* OnboardingViewModel.swift */; };
 		2372C31A2EF31BCF0007AFB4 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C3192EF31BC70007AFB4 /* LoginViewModel.swift */; };
-		2372C31C2EF357500007AFB4 /* AppButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2372C31B2EF357440007AFB4 /* AppButton.swift */; };
+		239413FA2EF42BB90009DBEC /* AppButtonRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239413F92EF42BAD0009DBEC /* AppButtonRepresentable.swift */; };
+		239413FC2EF42F4C0009DBEC /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239413FB2EF42F420009DBEC /* ImagePicker.swift */; };
+		239413FF2EF45B370009DBEC /* AppRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239413FE2EF45B230009DBEC /* AppRow.swift */; };
+		239414012EF4706A0009DBEC /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239414002EF470650009DBEC /* HomeViewModel.swift */; };
+		239414032EF4750D0009DBEC /* MockAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239414022EF475030009DBEC /* MockAuth.swift */; };
 		FF9415B525EECD340029E28F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415B425EECD340029E28F /* AppDelegate.swift */; };
 		FF9415B725EECD340029E28F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF9415B625EECD340029E28F /* SceneDelegate.swift */; };
 		FF9415BB25EECD350029E28F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF9415BA25EECD350029E28F /* Assets.xcassets */; };
@@ -32,14 +35,17 @@
 		2372C3022EF1D9960007AFB4 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		2372C3042EF1D9C90007AFB4 /* NavigatorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorRouter.swift; sourceTree = "<group>"; };
 		2372C3072EF202590007AFB4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		2372C30B2EF2F2A10007AFB4 /* AppTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextField.swift; sourceTree = "<group>"; };
 		2372C30E2EF2F30B0007AFB4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		2372C3102EF2F3480007AFB4 /* AppTextFieldRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTextFieldRepresentable.swift; sourceTree = "<group>"; };
 		2372C3132EF2FB110007AFB4 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 		2372C3152EF303D90007AFB4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2372C3172EF311A30007AFB4 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
 		2372C3192EF31BC70007AFB4 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		2372C31B2EF357440007AFB4 /* AppButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButton.swift; sourceTree = "<group>"; };
+		239413F92EF42BAD0009DBEC /* AppButtonRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtonRepresentable.swift; sourceTree = "<group>"; };
+		239413FB2EF42F420009DBEC /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		239413FE2EF45B230009DBEC /* AppRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRow.swift; sourceTree = "<group>"; };
+		239414002EF470650009DBEC /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		239414022EF475030009DBEC /* MockAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAuth.swift; sourceTree = "<group>"; };
 		FF9415B125EECD340029E28F /* innerCircleTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = innerCircleTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF9415B425EECD340029E28F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF9415B625EECD340029E28F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,9 +98,10 @@
 		2372C30A2EF2F0FE0007AFB4 /* ReusableComponents */ = {
 			isa = PBXGroup;
 			children = (
-				2372C31B2EF357440007AFB4 /* AppButton.swift */,
+				239413FE2EF45B230009DBEC /* AppRow.swift */,
+				239413FB2EF42F420009DBEC /* ImagePicker.swift */,
+				239413F92EF42BAD0009DBEC /* AppButtonRepresentable.swift */,
 				2372C3102EF2F3480007AFB4 /* AppTextFieldRepresentable.swift */,
-				2372C30B2EF2F2A10007AFB4 /* AppTextField.swift */,
 			);
 			path = ReusableComponents;
 			sourceTree = "<group>";
@@ -112,8 +119,19 @@
 			isa = PBXGroup;
 			children = (
 				2372C3152EF303D90007AFB4 /* HomeViewController.swift */,
+				239414002EF470650009DBEC /* HomeViewModel.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		239413FD2EF43D930009DBEC /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2372C3092EF2F0400007AFB4 /* Onboarding */,
+				2372C30D2EF2F2C90007AFB4 /* Login */,
+				2372C3122EF2FAD30007AFB4 /* Home */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 		FF9415A825EECD340029E28F = {
@@ -139,9 +157,7 @@
 				FF9415B625EECD340029E28F /* SceneDelegate.swift */,
 				2372C3012EF1D9400007AFB4 /* Coordinator */,
 				2372C30A2EF2F0FE0007AFB4 /* ReusableComponents */,
-				2372C3092EF2F0400007AFB4 /* Onboarding */,
-				2372C30D2EF2F2C90007AFB4 /* Login */,
-				2372C3122EF2FAD30007AFB4 /* Home */,
+				239413FD2EF43D930009DBEC /* Screens */,
 				2372C3062EF201F80007AFB4 /* Models */,
 				FF9415EC25EEEA560029E28F /* Util */,
 				FF9415BA25EECD350029E28F /* Assets.xcassets */,
@@ -163,6 +179,7 @@
 		FF9415EC25EEEA560029E28F /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				239414022EF475030009DBEC /* MockAuth.swift */,
 				FF9415D425EED60B0029E28F /* Constants.swift */,
 			);
 			path = Util;
@@ -249,14 +266,17 @@
 				2372C3032EF1D99B0007AFB4 /* Coordinator.swift in Sources */,
 				FF9415D525EED60B0029E28F /* Constants.swift in Sources */,
 				2372C30F2EF2F3140007AFB4 /* LoginViewController.swift in Sources */,
+				239414012EF4706A0009DBEC /* HomeViewModel.swift in Sources */,
+				239414032EF4750D0009DBEC /* MockAuth.swift in Sources */,
 				2372C3142EF2FB190007AFB4 /* OnboardingView.swift in Sources */,
+				239413FC2EF42F4C0009DBEC /* ImagePicker.swift in Sources */,
 				2372C3162EF303E10007AFB4 /* HomeViewController.swift in Sources */,
-				2372C31C2EF357500007AFB4 /* AppButton.swift in Sources */,
+				239413FF2EF45B370009DBEC /* AppRow.swift in Sources */,
 				2372C3082EF2025E0007AFB4 /* User.swift in Sources */,
 				FF9415B525EECD340029E28F /* AppDelegate.swift in Sources */,
 				FF9415B725EECD340029E28F /* SceneDelegate.swift in Sources */,
+				239413FA2EF42BB90009DBEC /* AppButtonRepresentable.swift in Sources */,
 				2372C3182EF311AA0007AFB4 /* OnboardingViewModel.swift in Sources */,
-				2372C30C2EF2F2AD0007AFB4 /* AppTextField.swift in Sources */,
 				2372C3052EF1D9CF0007AFB4 /* NavigatorRouter.swift in Sources */,
 				2372C3112EF2F34E0007AFB4 /* AppTextFieldRepresentable.swift in Sources */,
 				2372C31A2EF31BCF0007AFB4 /* LoginViewModel.swift in Sources */,

@@ -83,7 +83,7 @@ class LoginViewController: UIViewController {
     
     private func bindViewModel() {
         emailField.textPublisher
-            .assign(to: \.emailText, on: viewModel)
+            .assign(to: \.user.email, on: viewModel)
             .store(in: &cancellables)
         
         viewModel.$isEmailValid
