@@ -6,10 +6,10 @@ A demo for the take home app can be found [here](https://drive.google.com/file/d
 This is a mobile application where you can see a demonstration of a project's ability to integrate UIKit and SwiftUI, manage navigation, and structure a clean, scalable iOS project..
 
 ## How does the take home app work?
+- MVVM architecture supported with a Coordinator class for navigation
 - Navigates using UINaviagationController in a Coordinator class and clear routes to screens
 - Navigates smoothly between UIViewControllers and SwiftUI View screens
-- Using UIViewRepresentable to write stable UIKit components
-- Uses UIKit and SwiftUI components interchangeably
+- Uses UIKit and SwiftUI components interchangeably using bridges like(UIHostingController, UIViewRepresentable etc)
 
 
 ## Screenshots
